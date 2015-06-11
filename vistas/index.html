@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>{{titulo}}</title>
+<link rel="stylesheet" type="text/css" href="C:/Users/Andres Barrientos/Desktop/Comentarios/public/css/estilos.css">
+<script src ="C:/Users/Andres Barrientos/Desktop/Comentarios/public/js/jquery1.9.1.js"></script>
+<script src ="C:/Users/Andres Barrientos/Desktop/Comentarios/public/js/script.js"></script>
+</head>
+<body>
+<section id="Formulario">
+<h1>Sistema de Comentarios</h1>
+<form  method= "post" enctype="multipart/form-data" name="formu">
+<fieldset>
+
+<label for="nombre">Nombre: </label>
+<input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre completo" />
+
+<label for = "mensaje"> Comentario: </label>
+<textarea id="mensaje" name="mensaje" placeholder="Escriba sus comentarios"></textarea>
+
+<input type="submit" value="Guardar comentario" id ="boton"/>
+<div id = "cuadro" style = "overflow: scroll"></div>
+
+</fieldset>
+</form>
+</section>
+</body>
+</html>
